@@ -1,11 +1,11 @@
 {
-  "name": "test2",
+  "name": "mangoapiserver_client_sdk_typescript",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gc-axios": "openapi --input http://localhost:7878/v3/api-docs --output ./axios_client --client axios"
+    "gc-axios": "openapi --input http://localhost:7878/v3/api-docs --output ./src --client axios"
   },
   "author": "John Haigh",
   "license": "ISC",
