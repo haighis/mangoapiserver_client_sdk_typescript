@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "gc-axios": "openapi --input http://localhost:7878/v3/api-docs --output ./src --client axios"
+    "gc-axios": "openapi --input http://localhost:7878/v3/api-docs --output ./dist  --client axios"
   },
   "author": "John Haigh",
   "license": "ISC",
